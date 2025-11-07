@@ -117,3 +117,40 @@ El usuario ingresa **dos notas (0.0 - 5.0):**
 - Prueba lógica → 30%
 
 **Cálculo:**
+
+**Condiciones:**
+- nota_final ≥ 3 → `"Aprobado"`  
+- 2 ≤ nota_final < 3 → `"Revisión"`  
+- < 2 → `"Reprobado"`  
+- Validar que las notas estén dentro del rango 0.0 - 5.0.
+
+---
+
+## 9. Supermercado “AhorroMax” — Descuentos y envío
+
+Cada producto cuesta **$2.000**.
+
+**Reglas:**
+- 30 unidades → 15% descuento  
+- 10 unidades → 5% descuento  
+- Si el total después del descuento es < $50.000 → agregar $5.000 de envío  
+
+**Objetivo:**  
+Calcular y mostrar el total final a pagar.
+
+---
+
+## 10. Club “Noche Estelar” — Acceso + validación documento
+
+Pedir **edad** y **documento**.
+
+**Reglas:**
+- Edad ≥ 18 → puede entrar **solo si tiene documento**.  
+- Edad < 18 → `"Entrada denegada"`  
+- Edad ≥ 18 pero sin documento → `"Debe presentar documento"`  
+
+**Objetivo:**  
+Mostrar si la persona puede ingresar o no.
+
+---
+
